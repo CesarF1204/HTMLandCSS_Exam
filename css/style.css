@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: rgb(47, 123, 209);
+    color: white;
+}
+nav a.logo {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+nav a.logo img {
+    vertical-align: text-bottom;
+    padding-left: 5px;
+}
+nav .search-all {
+    text-align: center;
+    margin-top: 10px;
+}
+nav .search-all select {
+    height: 44px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: -5px;
+    padding: 10px;
+}
+nav .search-all button {
+    background-color: rgb(189, 189, 46);
+    height: 42px;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+nav .search-all button i {
+    cursor: pointer;
+}
+nav input[type="text"]{
+    width: 500px;
+    height: 40px;
+    margin-right: -5px;
+}
+nav ul {
+    text-align: end;
+    margin-right: 50px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 4px;
+}
+nav ul li select {
+    background: transparent;
+    border: none;
+    color: white;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav .my-account {
+    color: black;
+    text-align: end;
+    padding-bottom: 30px;
+    margin-top: -100px;
+    margin-right: 60px;
+}
+nav .my-account select {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-right: 100px;
+    
+}
+nav .my-account p{
+    margin-right: 100px;
+    color: white;
+}
+nav .my-account i {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 40px;
+    margin-right: 70px;
+    margin-top: 10px;
+    border-left: 1px solid black;
+    padding: 10px;
+    color: white;
+    
+}
+.header-menu {
+    width: 100%;
+    display: inline-block;
+    padding-left: 30px;
+
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+}
+.header-menu select {
+    border: none;
+    background: transparent;
+    color: rgb(47, 123, 209);
+    font-size: 20px;
+    border-right: 1px solid gray;
+    padding: 10px;
+}
+.header-menu ul {
+    display: inline-block;
+    
+}
+.header-menu ul li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    color: rgb(47, 123, 209);
+}
+.header-menu ul li.tax-refund {
+    color: red;
+}
+.carousel {
+    margin-top: 2px;
+}
+.carousel img{
+    width: 100%;
+}
+.content ul li{
+    display: inline-block;
+}
+.content img {
+    width: 100px;
+    height: 100px;
+
+}
+.content2 {
+    background-color: #f57421;
+    text-align: center;
+    padding: 20px;
+}
+.content2 li.shipping {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    width: 150px;
+}
+.content2 li.shipping img {
+    width: 190px;
+}
+.content2 ul li{
+    background: white;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 20px;
+}
+.content2 p {
+    color: rgb(47, 123, 209);
+}
+.content2 img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    nav input[type="text"] {
+        width: 200px;
+    }
+    .burger {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin-bottom: 6px;
+        margin-left: 10px;
+    }
+    nav ul li {
+        display :none;
+    }
+}
